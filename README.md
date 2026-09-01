@@ -4,7 +4,7 @@ Website for Qiskit Fall Fest at The Ohio State University.
 
 ## Structure
 
-Plain static HTML/CSS/JS — no build step required.
+Plain static HTML/CSS/JS.
 
 ```
 .
@@ -33,14 +33,9 @@ Then visit `http://localhost:8000`.
 Search the codebase for `TODO` comments — they mark placeholder content that needs real info:
 
 - **Event date & location** — currently "TBD" in `index.html` and `schedule.html`
-- **Registration link** — `register.html` currently points to a placeholder Google Form URL
-- **Speaker names** — `schedule.html` guest talk slot
-- **Organizer names/roles** — `team.html`
-- **Sponsor logos** — replace the dashed placeholder boxes in `team.html` with real `<img>` tags once sponsors are confirmed
+- **Registration link** — `register.html` currently points to a placeholder Google Form URL. Need to add a google form
+- **Schedule** — Need to fill in the actual schedule.
+- **Organizer names/roles** — `Need to add actual images and names of the team members`
 - **Workshop materials links** — `resources.html`, once slides/notebooks are ready
-- **Contact email** — currently `qiskitfallfest@osu.edu` in the footer of every page; update if you're using a different address
+- **Contact email** — currently `qiskitfallfest@osu.edu` as placeholder in the footer; need to update
 
-
-## Editing content
-
-Each page is standalone HTML with the header/nav and footer duplicated at the top/bottom — edit the content in between. Shared styles live in `css/style.css` (colors are defined as CSS variables at the top of the file).
