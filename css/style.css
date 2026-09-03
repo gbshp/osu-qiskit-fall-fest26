@@ -526,3 +526,13 @@ section.alt {
 .brand-logo + .brand-mark {
   display: none;
 }
+/* Outline buttons on white sections need dark text, not white */
+section:not(.hero) .btn-outline {
+  border-color: var(--osu-scarlet);
+  color: var(--osu-scarlet);
+}
+
+section:not(.hero) .btn-outline:hover {
+  background: var(--osu-scarlet);
+  color: #fff;
+}
