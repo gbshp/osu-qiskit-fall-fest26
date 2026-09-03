@@ -513,3 +513,16 @@ section.alt {
   font-size: 0.85rem;
   color: #999;
 }
+
+/* Event logo in the nav bar — hidden automatically if assets/logo.png is missing */
+.brand-logo {
+  height: 32px;
+  width: auto;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Hide the fallback atom glyph once a real logo loads */
+.brand-logo + .brand-mark {
+  display: none;
+}
