@@ -1,4 +1,4 @@
-# Qiskit Fall Fest @ Ohio State
+# Qiskit Fall Fest @ The Ohio State
 
 Website for Qiskit Fall Fest at The Ohio State University.
 
