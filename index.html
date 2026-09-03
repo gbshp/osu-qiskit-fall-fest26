@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Qiskit Fall Fest @ Ohio State</title>
-  <meta name="description" content="Qiskit Fall Fest at The Ohio State University — a student-run quantum computing event featuring workshops, talks, and hands-on projects with Qiskit." />
+  <title>Qiskit Fall Fest @ The Ohio State University</title>
+  <meta name="description" content="Qiskit Fall Fest at The Ohio State University — a free, week-long student-run quantum computing hackathon with a guest talk, a beginner workshop, and office hours. November 6–13, 2026." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -12,15 +12,17 @@
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="index.html">
+        <!-- Drop the event logo at assets/logo.png and it appears here automatically -->
+        <img class="brand-logo" src="assets/logo.png" alt="" onerror="this.remove()" />
         <span class="brand-mark">⚛</span>
-        OSU Qiskit Fall Fest
+        Qiskit Fall Fest @ Ohio State
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="register.html">Register</a></li>
-        <li><a href="team.html">Team &amp; Sponsors</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
@@ -28,20 +30,21 @@
 
   <section class="hero">
     <div class="container">
-      <p class="eyebrow" style="color:#fff; opacity:0.85;">Ohio State University</p>
+      <p class="eyebrow" style="color:#fff; opacity:0.85;">The Ohio State University</p>
       <h1>Qiskit Fall Fest 2026</h1>
       <p class="subtitle">
-        A free, student-run quantum computing event bringing together beginners and
-        experts to learn, build, and explore quantum programming with Qiskit.
+        A free, week-long quantum computing hackathon run by students, for students.
+        Come for the talk and the workshop, stay for the build. No quantum background needed —
+        just curiosity and a laptop.
       </p>
       <div class="hero-meta">
-        <span>📅 Date: TBD — Fall 2026</span>
-        <span>📍 Ohio State University, Columbus, OH</span>
+        <span>📅 November 6–13, 2026</span>
+        <span>📍 The Ohio State University, Columbus, OH</span>
         <span>🎟️ Free to attend</span>
       </div>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="register.html">Register Now</a>
-        <a class="btn btn-outline" href="schedule.html">View Schedule</a>
+        <a class="btn btn-primary" href="register.html">Register</a>
+        <a class="btn btn-outline" href="schedule.html">See the Week</a>
       </div>
     </div>
   </section>
@@ -50,30 +53,31 @@
     <div class="container">
       <div class="section-header">
         <p class="eyebrow">What is Qiskit Fall Fest?</p>
-        <h2>Learn quantum computing, hands-on</h2>
+        <h2>One week to build something quantum</h2>
         <p>
-          Qiskit Fall Fest is a global series of student-organized events supported by IBM Quantum.
-          At Ohio State, we're bringing together students of all backgrounds — no prior quantum
-          experience required — for a day of workshops, talks, and a mini hackathon using Qiskit,
-          IBM's open-source quantum computing SDK.
+          Qiskit Fall Fest is a global series of student-organized quantum computing events supported
+          by IBM Quantum, and this fall The Ohio State University is hosting one. We open on Friday,
+          November 6 with a guest talk and a beginner-friendly Qiskit workshop, then release the
+          hackathon problems. You have the following week to build — with office hours along the way —
+          and we close on Friday, November 13 with presentations, judging, and prizes.
         </p>
       </div>
 
       <div class="grid grid-3">
         <div class="card">
-          <span class="icon">🧑‍🏫</span>
-          <h3>Workshops</h3>
-          <p>Hands-on sessions covering quantum computing fundamentals, Qiskit basics, and real quantum hardware access — beginner-friendly, no experience needed.</p>
+          <span class="icon">🎤</span>
+          <h3>Guest Talk</h3>
+          <p>We kick off with a talk on where quantum computing actually stands today and what people are using it for — accessible whether or not you've touched a qubit before.</p>
         </div>
         <div class="card">
-          <span class="icon">🎤</span>
-          <h3>Guest Talks</h3>
-          <p>Hear from researchers, industry professionals, and IBM Quantum team members about the state of quantum computing and where the field is headed.</p>
+          <span class="icon">🧑‍🏫</span>
+          <h3>Opening Workshop</h3>
+          <p>A hands-on Qiskit session right after the talk: qubits, gates, circuits, and running your first program on real IBM Quantum hardware. Start from zero, leave with working code.</p>
         </div>
         <div class="card">
           <span class="icon">💡</span>
-          <h3>Mini Hackathon</h3>
-          <p>Team up and build a small quantum project by the end of the day, with mentors on hand to help and prizes for standout projects.</p>
+          <h3>Hackathon</h3>
+          <p>Form a team, pick a problem, and build over the week. Organizers hold office hours throughout so you're never stuck alone, and the best projects take home prizes.</p>
         </div>
       </div>
     </div>
@@ -83,17 +87,22 @@
     <div class="container">
       <div class="section-header">
         <p class="eyebrow">Who should come?</p>
-        <h2>Everyone is welcome</h2>
-        <p>Whether you've never written a line of Qiskit or you're already running circuits on real quantum hardware, there's something here for you.</p>
+        <h2>All backgrounds, all majors</h2>
+        <p>
+          There are no tracks and no prerequisites. Physics, CS, math, engineering, business, art —
+          we've built the week so that someone seeing a quantum circuit for the first time on
+          November 6 can still ship a project by the 13th. If you already write Qiskit, there's
+          plenty of room to go deep, and mentors to push you.
+        </p>
       </div>
       <div class="grid grid-2">
         <div class="card">
-          <h3>New to quantum?</h3>
-          <p>Start with our intro workshop track — we'll walk through qubits, gates, and your first circuit in Qiskit, step by step.</p>
+          <h3>Never seen a qubit?</h3>
+          <p>The opening workshop assumes nothing. A little Python helps, but we'll get you from "what is superposition" to a running circuit in one evening.</p>
         </div>
         <div class="card">
-          <h3>Already coding in Qiskit?</h3>
-          <p>Jump into the hackathon track, dive into advanced talks, and get access to real IBM Quantum hardware.</p>
+          <h3>Already writing circuits?</h3>
+          <p>Skip ahead to the hackathon problems, use office hours to talk through your approach, and get free access to real IBM Quantum backends.</p>
         </div>
       </div>
     </div>
@@ -102,10 +111,15 @@
   <section>
     <div class="container" style="text-align:center;">
       <h2>Ready to join us?</h2>
-      <p style="max-width:520px; margin: 0 auto 1.5rem; color: var(--text-muted);">
-        Seats are limited — reserve your spot for Qiskit Fall Fest at Ohio State.
+      <p style="max-width:560px; margin: 0 auto 1.5rem; color: var(--text-muted);">
+        Registration is free and takes a couple of minutes. Then hop in the event Discord —
+        that's where teams form, problems drop, and questions get answered all week.
       </p>
-      <a class="btn btn-purple" href="register.html">Register Now</a>
+      <div class="hero-actions" style="justify-content:center;">
+        <a class="btn btn-purple" href="register.html">Register</a>
+        <!-- TODO: swap in the new Fall Fest Discord invite once Nolan has it set up -->
+        <a class="btn btn-outline" href="#" target="_blank" rel="noopener">Join the Discord</a>
+      </div>
     </div>
   </section>
 
@@ -114,16 +128,12 @@
       <a href="index.html">Home</a>
       <a href="schedule.html">Schedule</a>
       <a href="register.html">Register</a>
-      <a href="team.html">Team &amp; Sponsors</a>
+      <a href="about.html">About</a>
       <a href="resources.html">Resources</a>
     </div>
-    <div class="footer-social">
-      <!-- TODO: update with your real contact / social links -->
-      <a href="mailto:qiskitfallfest@osu.edu">qiskitfallfest@osu.edu</a>
-    </div>
     <p class="footer-fine-print">
-      Qiskit Fall Fest at Ohio State is an independent student event supported by IBM Quantum.
-      Not officially affiliated with or endorsed by IBM.
+      Qiskit Fall Fest at The Ohio State University is an independent, student-run event supported by
+      IBM Quantum. Not officially affiliated with or endorsed by IBM.
     </p>
   </footer>
 

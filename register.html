@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Register — Qiskit Fall Fest @ Ohio State</title>
-  <meta name="description" content="Register for Qiskit Fall Fest at Ohio State University — free and open to all students." />
+  <title>Register — Qiskit Fall Fest @ The Ohio State University</title>
+  <meta name="description" content="Register for Qiskit Fall Fest at The Ohio State University — free, November 6–13, 2026, open to students of all backgrounds." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -12,15 +12,16 @@
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="" onerror="this.remove()" />
         <span class="brand-mark">⚛</span>
-        OSU Qiskit Fall Fest
+        Qiskit Fall Fest @ Ohio State
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="register.html">Register</a></li>
-        <li><a href="team.html">Team &amp; Sponsors</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
@@ -28,10 +29,10 @@
 
   <section class="hero" style="padding: 3rem 1.5rem;">
     <div class="container">
-      <p class="eyebrow" style="color:#fff; opacity:0.85;">Reserve Your Spot</p>
+      <p class="eyebrow" style="color:#fff; opacity:0.85;">November 6–13, 2026</p>
       <h1 style="font-size: 2.25rem;">Register</h1>
       <p class="subtitle" style="font-size: 1rem;">
-        Free to attend. Open to all Ohio State students — no quantum computing experience required.
+        Free, open to students of every major and every experience level.
       </p>
     </div>
   </section>
@@ -39,22 +40,22 @@
   <section>
     <div class="container">
       <div class="register-box">
-        <h2>Save your seat</h2>
+        <h2>Two steps to join</h2>
         <p>
-          Registration takes less than 2 minutes. Lunch, snacks, and all workshop materials
-          are provided free of charge to registered attendees.
+          Fill out the registration form, then join the event Discord — that's where the hackathon
+          problems drop, teams form, and office hours get announced. Food and materials are covered
+          for everyone who registers.
         </p>
-        <!--
-          TODO: Replace this href with your real registration form link
-          (Google Form, Luma, Eventbrite, etc.)
-        -->
-        <a class="btn btn-purple" href="https://forms.gle/REPLACE_WITH_YOUR_FORM" target="_blank" rel="noopener">
-          Register on Google Forms →
-        </a>
-        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
-          Trouble with the form? Email us at
-          <a href="mailto:qiskitfallfest@osu.edu">qiskitfallfest@osu.edu</a>.
-        </p>
+        <div class="hero-actions" style="justify-content:center;">
+          <!-- TODO: replace with the real Google Form link -->
+          <a class="btn btn-purple" href="https://forms.gle/REPLACE_WITH_YOUR_FORM" target="_blank" rel="noopener">
+            Register →
+          </a>
+          <!-- TODO: replace with the new Fall Fest Discord invite (not the club's main server) -->
+          <a class="btn btn-outline" href="#" target="_blank" rel="noopener">
+            Join the Discord →
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -67,25 +68,33 @@
       </div>
       <div style="max-width: 680px; margin: 0 auto;">
         <div class="faq-item">
-          <h4>Do I need prior quantum computing or programming experience?</h4>
-          <p>No. We have a beginner-friendly workshop track that starts from the basics. Familiarity with Python is helpful but not required.</p>
+          <h4>Do I need quantum computing or programming experience?</h4>
+          <p>No. The opening workshop starts from the very beginning, and there are no separate tracks — everyone gets the same problems and the same support. Some Python familiarity makes life easier, but plenty of people arrive without it.</p>
         </div>
         <div class="faq-item">
-          <h4>Is this only for Ohio State students?</h4>
-          <!-- TODO: confirm and update if open to other schools -->
-          <p>Ohio State students are our priority, but students from other universities are welcome to join as space allows.</p>
+          <h4>What majors is this for?</h4>
+          <p>All of them. Quantum computing pulls from physics, computer science, math, and engineering, but the problems reward good ideas from anywhere. If you're curious, you belong here.</p>
         </div>
         <div class="faq-item">
-          <h4>Do I need to bring my own laptop?</h4>
-          <p>Yes — please bring a laptop that can run a web browser. All workshops use IBM Quantum's cloud-based tools, so no local installation is required.</p>
+          <h4>Do I need a team?</h4>
+          <p>No — show up solo and we'll help you find teammates at the kickoff mixer and in the Discord. You're also welcome to bring your own team.</p>
         </div>
         <div class="faq-item">
-          <h4>Is there a cost to attend?</h4>
-          <p>No, the event is completely free, including food and workshop materials.</p>
+          <h4>Do I have to be there the whole week?</h4>
+          <p>Only the two Friday evenings really matter: kickoff on November 6 and presentations on November 13. In between, you work on your own schedule and drop into office hours if you want them.</p>
         </div>
         <div class="faq-item">
-          <h4>Can I just come for part of the day?</h4>
-          <p>Of course — feel free to drop in for the sessions that interest you most, though we'd love to have you for the whole day!</p>
+          <h4>Do I need to bring a laptop?</h4>
+          <p>Yes, anything that runs a modern browser. We use IBM Quantum's cloud tools, so there's nothing to install.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Is it really free?</h4>
+          <p>Yes — registration, food, materials, and quantum hardware access are all free.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can students from other universities join?</h4>
+          <!-- TODO: confirm before launch — this is currently a yes-with-space-limits answer -->
+          <p>Ohio State students come first, but students from other schools are welcome as space allows. Register early if you're travelling in.</p>
         </div>
       </div>
     </div>
@@ -96,15 +105,12 @@
       <a href="index.html">Home</a>
       <a href="schedule.html">Schedule</a>
       <a href="register.html">Register</a>
-      <a href="team.html">Team &amp; Sponsors</a>
+      <a href="about.html">About</a>
       <a href="resources.html">Resources</a>
     </div>
-    <div class="footer-social">
-      <a href="mailto:qiskitfallfest@osu.edu">qiskitfallfest@osu.edu</a>
-    </div>
     <p class="footer-fine-print">
-      Qiskit Fall Fest at Ohio State is an independent student event supported by IBM Quantum.
-      Not officially affiliated with or endorsed by IBM.
+      Qiskit Fall Fest at The Ohio State University is an independent, student-run event supported by
+      IBM Quantum. Not officially affiliated with or endorsed by IBM.
     </p>
   </footer>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resources — Qiskit Fall Fest @ Ohio State</title>
-  <meta name="description" content="Workshop materials and learning resources for Qiskit Fall Fest at Ohio State University." />
+  <title>Resources — Qiskit Fall Fest @ The Ohio State University</title>
+  <meta name="description" content="Learning resources and workshop materials for Qiskit Fall Fest at The Ohio State University." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -12,15 +12,16 @@
   <header class="site-header">
     <nav class="nav">
       <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="" onerror="this.remove()" />
         <span class="brand-mark">⚛</span>
-        OSU Qiskit Fall Fest
+        Qiskit Fall Fest @ Ohio State
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="register.html">Register</a></li>
-        <li><a href="team.html">Team &amp; Sponsors</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
@@ -28,10 +29,11 @@
 
   <section class="hero" style="padding: 3rem 1.5rem;">
     <div class="container">
-      <p class="eyebrow" style="color:#fff; opacity:0.85;">Learn Qiskit</p>
+      <p class="eyebrow" style="color:#fff; opacity:0.85;">Get a head start</p>
       <h1 style="font-size: 2.25rem;">Resources</h1>
       <p class="subtitle" style="font-size: 1rem;">
-        Workshop materials, tutorials, and links to get started with Qiskit before, during, and after the event.
+        Everything below is free. You don't need any of it to show up on November 6, but if you
+        want to walk in already comfortable, start here.
       </p>
     </div>
   </section>
@@ -39,22 +41,29 @@
   <section>
     <div class="container">
       <div class="section-header">
-        <p class="eyebrow">Workshop Materials</p>
-        <h2>Event Resources</h2>
+        <p class="eyebrow">Start here</p>
+        <h2>Learning Qiskit</h2>
       </div>
-      <!-- TODO: link to your actual workshop slides/notebooks once ready (e.g. a GitHub repo or Google Drive folder) -->
       <ul class="resource-list">
         <li>
-          <a href="#" target="_blank" rel="noopener">Intro to Quantum Computing — Slides</a>
-          <p>Slide deck covering qubits, superposition, and entanglement from the morning workshop.</p>
+          <a href="https://quantum.cloud.ibm.com/" target="_blank" rel="noopener">IBM Quantum Platform</a>
+          <p>Make a free account before the kickoff — it's what you'll use to run circuits on real quantum hardware during the hackathon.</p>
         </li>
         <li>
-          <a href="#" target="_blank" rel="noopener">Qiskit Starter Notebook</a>
-          <p>A Jupyter notebook with starter code to build and run your first quantum circuit.</p>
+          <a href="https://learning.quantum.ibm.com/" target="_blank" rel="noopener">IBM Quantum Learning</a>
+          <p>Free structured courses, from "what is a qubit" through error correction. The basics of quantum information course is the best single starting point.</p>
         </li>
         <li>
-          <a href="#" target="_blank" rel="noopener">Hackathon Starter Kit</a>
-          <p>Templates, sample projects, and submission guidelines for the mini hackathon.</p>
+          <a href="https://www.ibm.com/quantum/qiskit" target="_blank" rel="noopener">Qiskit</a>
+          <p>The open-source Python SDK we build with all week. This page covers what it is and how to install it locally if you'd rather not work in the browser.</p>
+        </li>
+        <li>
+          <a href="https://quantum.cloud.ibm.com/docs" target="_blank" rel="noopener">Qiskit Documentation</a>
+          <p>API reference and how-to guides. Worth bookmarking before the hackathon starts.</p>
+        </li>
+        <li>
+          <a href="https://www.ibm.com/quantum/blog/qiskit-fall-fest-2026" target="_blank" rel="noopener">Qiskit Fall Fest 2026</a>
+          <p>IBM's announcement of this year's global program. The 2026 theme marks ten years since IBM put a quantum computer on the cloud for anyone to use.</p>
         </li>
       </ul>
     </div>
@@ -63,31 +72,17 @@
   <section class="alt">
     <div class="container">
       <div class="section-header">
-        <p class="eyebrow">Learn More</p>
-        <h2>External Resources</h2>
+        <p class="eyebrow">From the event</p>
+        <h2>Workshop materials</h2>
+        <p>
+          Slides, notebooks, and the hackathon starter kit go up here once the kickoff workshop
+          happens on November 6. Announcements land in the event Discord first.
+        </p>
       </div>
-      <ul class="resource-list">
-        <li>
-          <a href="https://www.ibm.com/quantum/qiskit" target="_blank" rel="noopener">Qiskit Official Site</a>
-          <p>IBM's open-source SDK for working with quantum computers at the level of circuits, pulses, and algorithms.</p>
-        </li>
-        <li>
-          <a href="https://learning.quantum.ibm.com/" target="_blank" rel="noopener">IBM Quantum Learning</a>
-          <p>Free courses and tutorials on quantum computing, from the basics through advanced algorithms.</p>
-        </li>
-        <li>
-          <a href="https://docs.quantum.ibm.com/" target="_blank" rel="noopener">Qiskit Documentation</a>
-          <p>Full API reference and guides for building with Qiskit.</p>
-        </li>
-        <li>
-          <a href="https://quantum.ibm.com/" target="_blank" rel="noopener">IBM Quantum Platform</a>
-          <p>Run your circuits on real quantum hardware, free with an IBM Quantum account.</p>
-        </li>
-        <li>
-          <a href="https://github.com/qiskit-community/qiskit-fall-fest" target="_blank" rel="noopener">Qiskit Fall Fest (Global)</a>
-          <p>Learn more about the global Qiskit Fall Fest program and events at other universities.</p>
-        </li>
-      </ul>
+      <!--
+        TODO: either fill these in with real links after the workshop, or delete this whole
+        section if we decide not to publish our own materials.
+      -->
     </div>
   </section>
 
@@ -96,15 +91,12 @@
       <a href="index.html">Home</a>
       <a href="schedule.html">Schedule</a>
       <a href="register.html">Register</a>
-      <a href="team.html">Team &amp; Sponsors</a>
+      <a href="about.html">About</a>
       <a href="resources.html">Resources</a>
     </div>
-    <div class="footer-social">
-      <a href="mailto:qiskitfallfest@osu.edu">qiskitfallfest@osu.edu</a>
-    </div>
     <p class="footer-fine-print">
-      Qiskit Fall Fest at Ohio State is an independent student event supported by IBM Quantum.
-      Not officially affiliated with or endorsed by IBM.
+      Qiskit Fall Fest at The Ohio State University is an independent, student-run event supported by
+      IBM Quantum. Not officially affiliated with or endorsed by IBM.
     </p>
   </footer>
 
